@@ -1,0 +1,48 @@
+html {
+    width: 225px;
+    height: 250px;
+  }
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #fff0f0;; /* Very light pink */
+    text-align: center;
+  }
+
+  .popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 10px;
+  }
+
+
+  #rain-volume {
+    width: 80%;
+    margin-top: 20px;
+  }
+
+
+  /* Styling the slider track */
+   input[type=range] {
+    width: 100%; /* Set the width of the slider */
+    height: 10px; /* Set the height of the slider */
+    background-color: #f0f0f0; /* Set the background color of the slider track */
+    border-radius: 5px; /* Set the border radius to create rounded corners */
+    outline: none; /* Remove default focus styles */
+  }
+  
+  /* Styling the slider thumb */
+  input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none; /* Remove default styling */
+    width: 20px; /* Set the width of the slider thumb */
+    height: 20px; /* Set the height of the slider thumb */
+    background-color: #477835; /* Set the background color of the slider thumb */
+    border-radius: 50%; /* Set the border radius to create a circular thumb */
+    cursor: pointer; /* Set cursor to pointer on hover */
+  }
